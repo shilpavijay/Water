@@ -1,4 +1,4 @@
-Data Analysis and Visualization of Basic and safely managed drinking water services Worldwide
+Data Analysis and Visualization of Basic drinking water services Worldwide
 ----------------------------------------------------------------------------------------------
 
 Data obtained from Global Health Observatory data repository:
