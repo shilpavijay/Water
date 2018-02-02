@@ -13,10 +13,11 @@ def getData():
 		df.drop(df.index[0], inplace=True) #drops row no. 1
 		df.drop(df.index[2:65],inplace=True)
 		df.drop(df.index[40:],inplace=True)
-		#drop column by name:
+		# drop column by name:
 		df.drop([col for col in df.columns if ".2" not in col and "Country" not in col], axis=1,inplace=True)
 		df.drop(df.columns[6:],axis=1,inplace=True)
 		df.rename(columns=lambda x: x.replace('.2',''), inplace=True)
+		# print(df.head(1))
 	except Exception as e:
 		print(e)
 	return df
